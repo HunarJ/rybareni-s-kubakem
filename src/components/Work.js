@@ -6,7 +6,7 @@ import CardImg3 from "../assets/main/image13.jpeg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen bg-[#393E46] text-gray-300 py-10">
+    <div name="work" className="w-full 2xl:h-screen bg-[#393E46] text-gray-300 2xl:py-14 py-[160px] flex">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -24,10 +24,10 @@ const Work = () => {
               className="border rounded-full border-none h-56"
             />
           </div>
-          <div className="flex flex-col justify-center px-5">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg">
             <p>
               Kromě rybaření online prostřednictvím mé kamery a kanálu Youtube
-              ,Rybaření s Kubákem”, nabízím také osobní doprovod po
+              Rybaření s Kubákem, nabízím také osobní doprovod po
               východočeských revírech, typování míst k rybaření, produktové
               poradenství, workshopy a rybaření na malém soukromém revíru v
               Orlických Horách.
@@ -35,7 +35,7 @@ const Work = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="flex flex-col justify-center px-5 md:text-right">
+          <div className="flex flex-col justify-center px-5 md:text-right 2xl:text-lg">
             <h3 className="font-bold">SLUŽBY PRŮVODCE</h3>
             <p>
               Provedu Tě po východočeských revírech, a především po pískovnách
@@ -51,7 +51,7 @@ const Work = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="flex flex-col justify-center px-5 md:text-right">
+          <div className="flex flex-col justify-center px-5 md:text-right 2xl:text-lg">
             <h3 className="font-bold">PRODUKTOVÉ PORADENSTVÍ</h3>
             <p>
               Pokud si nevíš rady a chceš pomoct s výběrem vybavení, mám pro
@@ -67,7 +67,7 @@ const Work = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="flex flex-col justify-center px-5 md:text-right">
+          <div className="flex flex-col justify-center px-5 md:text-right 2xl:text-lg">
             <h3 className="font-bold">WORKSHOP</h3>
             <p>
               Pokud chceš společně semnou vyrazit na ryby, máš možnost

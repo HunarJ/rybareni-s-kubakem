@@ -1,17 +1,4 @@
-import React, { useState } from "react";
-import { Lightbox } from "react-lightbox-pack";
-import "react-lightbox-pack/dist/index.css";
-
-import Catches1 from "../assets/carousel/carousel1.jpeg";
-import Catches2 from "../assets/carousel/carousel2.jpeg";
-import Catches3 from "../assets/carousel/carousel3.jpeg";
-import Catches4 from "../assets/carousel/carousel4.jpeg";
-import Catches5 from "../assets/carousel/carousel5.jpeg";
-
-const Catches = () => {
-
-  return (
-    <div name="catches" className="w-full h-screen bg-[#393E46] text-gray-300">
+ <div name="catches" className="w-full h-screen bg-[#393E46] text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -36,7 +23,3 @@ const Catches = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-export default Catches;

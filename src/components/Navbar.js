@@ -22,7 +22,8 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
+        <p className="font-bold"><a href="index.html">RYBAŘENÍ S KUBÁKEM</a></p>
+        {/* <img src={Logo} alt="Logo image" style={{ width: "50px" }} /> */}
       </div>
 
       {/* {menu} */}
@@ -41,6 +42,11 @@ const Navbar = () => {
         <li>
           <Link to="work" smooth={true} duration={500}>
             Nabízím
+          </Link>
+        </li>
+        <li>
+          <Link to="youtube" smooth={true} duration={500}>
+            YouTube
           </Link>
         </li>
         <li>
@@ -81,6 +87,11 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link onClick={hadleClick} to="work" smooth={true} duration={500}>
             Nabízím
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={hadleClick} to="youtube" smooth={true} duration={500}>
+            YouTube
           </Link>
         </li>
         <li className="py-6 text-4xl">

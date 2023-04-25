@@ -4,8 +4,8 @@ import SecondImg from "../assets/main/image6.jpeg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#393E46] text-gray-300 py-10 flex">
-      <div className="flex flex-col justify-center items-center w-full h-screen">
+    <div name="about" className="w-full 2xl:h-screen bg-[#393E46] text-gray-300 py-14 flex">
+      <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#FFD369]">
@@ -19,10 +19,10 @@ const About = () => {
             <img
               src={FirstImg}
               alt=""
-              className="border rounded-full border-none max-h-[200px]"
+              className="border rounded-full border-none max-h-[250px]"
             />
           </div>
-          <div className="flex flex-col justify-center px-5">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg">
             <p>
               Ahoj! Jmenuji se Jakub Zeman a jsem youtuber Kubák, ale hlavně
               rybář a milovník přírody. Rád točím videa a prostřednictvím mé
@@ -37,7 +37,7 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10">
-          <div className="flex flex-col justify-center px-5">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg">
             <p>
               Rybařím od šesti let, kdy jsem začínal na malém vesnickém
               rybníčku. Ze začátku jsem se nejvíce věnoval muškaření a plavané.
@@ -55,7 +55,7 @@ const About = () => {
             <img
               src={SecondImg}
               alt=""
-              className="border rounded-full border-none max-h-[200px]"
+              className="border rounded-full border-none max-h-[250px]"
             />
           </div>
         </div>
