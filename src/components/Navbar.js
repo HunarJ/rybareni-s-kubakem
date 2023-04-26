@@ -10,7 +10,6 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo1.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -29,32 +28,32 @@ const Navbar = () => {
       {/* {menu} */}
 
       <ul className="hidden md:flex">
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="home" smooth={true} duration={500}>
             Domů
           </Link>
         </li>
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="about" smooth={true} duration={500}>
             O mně
           </Link>
         </li>
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="work" smooth={true} duration={500}>
             Nabízím
           </Link>
         </li>
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="youtube" smooth={true} duration={500}>
             YouTube
           </Link>
         </li>
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="contact" smooth={true} duration={500}>
             Kontakt
           </Link>
         </li>
-        <li>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
           <Link to="catches" smooth={true} duration={500}>
             Úlovky
           </Link>
