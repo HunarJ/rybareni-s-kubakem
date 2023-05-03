@@ -1,8 +1,9 @@
 import React from 'react'
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full 2xl:h-screen bg-[#393E46] text-gray-300 flex justify-center items-center p-4 2xl:py-14 py-[120px]'>
+    <div name='contact' className='w-full xl:h-screen bg-[#393E46] text-gray-300 flex justify-center items-center contact-section'>
         <form method='post' action='https://getform.io/f/19147f85-f9ea-4db3-b126-b41d028c7647' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#FFD369]'>Kontaktuj mně</p>

@@ -10,7 +10,7 @@ import Gallery from "./components/Gallery";
 
 function App() {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <Navbar />
       <Home />
       <About />

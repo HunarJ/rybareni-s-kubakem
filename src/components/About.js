@@ -1,10 +1,11 @@
 import React from "react";
 import FirstImg from "../assets/main/image10.jpeg";
 import SecondImg from "../assets/main/image6.jpeg";
+import "./About.css";
 
 const About = () => {
   return (
-    <div name="about" className="w-full 2xl:h-screen bg-[#393E46] text-gray-300 2xl:py-14 py-[160px] flex px-10">
+    <div name="about" className="w-full xl:h-screen flex bg-[#393E46] text-gray-300 px-10 about-section">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">

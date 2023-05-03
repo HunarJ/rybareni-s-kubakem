@@ -3,10 +3,11 @@ import OfferImg from "../assets/gallery/img-16.jpeg";
 import CardImg1 from "../assets/main/image3.jpeg";
 import CardImg2 from "../assets/main/image11.jpeg";
 import CardImg3 from "../assets/main/image13.jpeg";
+import "./Work.css"
 
 const Work = () => {
   return (
-    <div name="work" className="w-full 2xl:h-screen bg-[#393E46] text-gray-300 2xl:py-14 py-[160px] px-10 flex">
+    <div name="work" className="w-full xl:h-screen bg-[#393E46] text-gray-300 px-10 work-section">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
