@@ -8,7 +8,7 @@ const Youtube = () => {
       name="youtube"
       className="w-full flex flex-col justify-center bg-[#393E46] text-gray-300 px-10"
     >
-      <div className="flex flex-col justify-center items-center w-full my-[120px]">
+      <div className="flex flex-col justify-center items-center w-full my-[140px]">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4 flex flex-col justify-end">
             <p className="text-4xl font-bold inline ">
