@@ -1,19 +1,18 @@
 import React from "react";
 import FirstImg from "../assets/main/image14.jpg";
 import SecondImg from "../assets/main/image15.jpg";
-import "./Youtube.css";
 
 const Youtube = () => {
   return (
     <div
       name="youtube"
-      className="w-full xl:h-screen bg-[#393E46] text-gray-300 px-10 youtube-section"
+      className="w-full flex flex-col justify-center bg-[#393E46] text-gray-300 px-10"
     >
-      <div className="flex flex-col justify-center items-center w-full h-screen">
+      <div className="flex flex-col justify-center items-center w-full my-[120px]">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-[#FFD369]">
-              <a href="https://www.youtube.com/@RybarenisKubakem">
+          <div className="sm:text-right pb-8 pl-4 flex flex-col justify-end">
+            <p className="text-4xl font-bold inline ">
+              <a href="https://www.youtube.com/@RybarenisKubakem" className="border-b-4 border-[#FFD369]">
                 YouTube
               </a>
             </p>

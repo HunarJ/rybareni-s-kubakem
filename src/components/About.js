@@ -1,12 +1,11 @@
 import React from "react";
 import FirstImg from "../assets/main/image10.jpeg";
 import SecondImg from "../assets/main/image6.jpeg";
-import "./About.css";
 
 const About = () => {
   return (
-    <div name="about" className="w-full xl:h-screen flex bg-[#393E46] text-gray-300 px-10 about-section">
-      <div className="flex flex-col justify-center items-center w-full h-full">
+    <div name="about" className="w-full 2xl:flex flex-col justify-center bg-[#393E46] text-gray-300 px-10">
+      <div className="2xl:h-screen flex flex-col justify-center items-center w-full my-40 2xl:my-20">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#FFD369]">
@@ -16,7 +15,7 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="hidden md:flex px-5 justify-end">
+          <div className="hidden md:flex px-5 justify-end items-center">
             <img
               src={FirstImg}
               alt=""
@@ -52,7 +51,7 @@ const About = () => {
               přál vám všem.
             </p>
           </div>
-          <div className="hidden md:flex px-5">
+          <div className="hidden md:flex px-5 items-center">
             <img
               src={SecondImg}
               alt=""
