@@ -72,9 +72,9 @@ const Gallery = () => {
             <img className="h-full mx-auto" src={Catches4} />
           </div>
         </div>
-        <div className="max-h-[150px] lg:max-h-[250px] w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(4)}
           >
             <img className="h-full mx-auto" src={Catches5} />
@@ -98,9 +98,9 @@ const Gallery = () => {
             <img className="h-full mx-auto" src={Catches8} />
           </div>
         </div>
-        <div className="max-h-[150px] lg:max-h-[250px] w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(8)}
           >
             <img className="h-full mx-auto" src={Catches9} />
@@ -126,7 +126,7 @@ const Gallery = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(12)}
           >
             <img className="h-full mx-auto" src={Catches13} />
