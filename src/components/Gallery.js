@@ -54,7 +54,7 @@ const Gallery = () => {
             <img className="h-full mx-auto" src={Catches1} />
           </div>
           <div
-            className="max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(1)}
           >
             <img className="h-full mx-auto" src={Catches2} />
