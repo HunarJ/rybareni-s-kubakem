@@ -19,7 +19,7 @@ const About = () => {
             <img
               src={FirstImg}
               alt=""
-              className="border rounded-full border-none max-h-[250px]"
+              className="border rounded-[50px] md:rounded-full border-none max-h-[250px]"
             />
           </div>
           <div className="flex flex-col justify-center px-5 2xl:text-lg">
@@ -51,7 +51,7 @@ const About = () => {
               přál vám všem.
             </p>
           </div>
-          <div className="hidden md:flex px-5 items-center">
+          <div className="flex px-5 items-center">
             <img
               src={SecondImg}
               alt=""

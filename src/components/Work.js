@@ -33,6 +33,13 @@ const Work = () => {
               Orlických Horách.
             </p>
           </div>
+          <div className="flex justify-end md:hidden px-5 my-5">
+            <img
+              src={OfferImg}
+              alt=""
+              className="border rounded-full border-none h-56"
+            />
+          </div>
         </div>
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
           <div className="flex flex-col justify-center px-5 md:text-right 2xl:text-lg">
@@ -42,7 +49,7 @@ const Work = () => {
               kolem Hradce Králové, které mám moc rád.
             </p>
           </div>
-          <div className="hidden md:flex px-5">
+          <div className="flex px-5">
             <img
               src={CardImg1}
               alt=""
@@ -58,7 +65,7 @@ const Work = () => {
               Tebe pár typů. Společně to zvládneme.
             </p>
           </div>
-          <div className="hidden md:flex px-5">
+          <div className="flex px-5">
             <img
               src={CardImg2}
               alt=""
@@ -74,7 +81,7 @@ const Work = () => {
               rezervovat termín, případně zakoupit dárkový poukaz kamarádovi.
             </p>
           </div>
-          <div className="hidden md:flex px-5">
+          <div className="flex px-5">
             <img
               src={CardImg3}
               alt=""
