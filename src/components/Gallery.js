@@ -48,16 +48,16 @@ const Gallery = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(0)}
           >
-            <img className="max-h-[250px] mx-auto" src={Catches1} />
+            <img className="h-full mx-auto" src={Catches1} />
           </div>
           <div
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            className="max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(1)}
           >
-            <img className="max-h-[250px] mx-auto" src={Catches2} />
+            <img className="h-full mx-auto" src={Catches2} />
           </div>
           <div
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
