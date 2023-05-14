@@ -6,6 +6,7 @@ import Youtube from "./components/Youtube";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Youtube />
       <Contact />
       <Gallery />
+      <Footer />
     </div>
   );
 }

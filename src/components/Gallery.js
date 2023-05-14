@@ -37,7 +37,7 @@ const Gallery = () => {
 
   return (
     <div name="catches" className="w-full bg-[#393E46] text-gray-300 py-[120px]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#FFD369] ">
             Galerie úlovků

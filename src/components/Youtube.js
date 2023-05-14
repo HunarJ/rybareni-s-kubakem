@@ -48,13 +48,6 @@ const Youtube = () => {
                 semnou.
               </p>
             </div>
-            <div className="flex flex-col px-5 justify-center items-end md:hidden my-5">
-            <img
-              src={FirstImg}
-              alt=""
-              className="border rounded-full border-none max-w-[225px] "
-            />
-          </div>
           </div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10">
