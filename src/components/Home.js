@@ -14,12 +14,12 @@ const Home = () => {
           </a>
         </div>
         <div>
-          <h2 className="text-4xl text-[#FFD369]">Zdraví tě</h2>
+          <h2 className="text-4xl text-[#FFD369]">Zdraví Tě</h2>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
             Kubák
           </h1>
           <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-            tvůj rybářský průvodce
+            Tvůj rybářský průvodce
           </h2>
           <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
           <div>
