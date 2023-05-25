@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import {
   FaBars,
   FaTimes,
+  FaGithub,
+  FaLinkedin,
   FaFacebook,
   FaInstagram,
   FaYoutube,
