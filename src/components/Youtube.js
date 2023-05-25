@@ -31,7 +31,7 @@ const Youtube = () => {
             <div className="py-4">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369] ">
                 <a href="https://www.youtube.com/@RybarenisKubakem">
-                  Rybaření s kubákem
+                  Rybaření s Kubákem
                 </a>
               </p>
             </div>
@@ -45,7 +45,7 @@ const Youtube = () => {
                 studia, kam si zvu zajímavé hosty, nebo si vysvětlujeme různá
                 rybářska témata. Celkově se videa snažím tvořit tak, abych
                 diváka dostal s sebou k vodě a užil si tento zážitek společně
-                semnou.
+                se mnou.
               </p>
             </div>
           </div>
