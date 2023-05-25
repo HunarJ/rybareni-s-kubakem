@@ -8,7 +8,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#222831]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <div className="hidden lg:flex flex-row justify-end">
+        <div className="flex flex-row justify-end my-5">
           <a href="https://www.youtube.com/@RybarenisKubakem">
             <img src={homeImage} alt="CarpAngler" />
           </a>
