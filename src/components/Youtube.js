@@ -6,9 +6,9 @@ const Youtube = () => {
   return (
     <div
       name="youtube"
-      className="w-full flex flex-col justify-center bg-[#393E46] text-gray-300 px-10"
+      className="w-full flex flex-col justify-center bg-[#393E46] text-gray-300 px-10 mt-60"
     >
-      <div className="flex flex-col justify-center items-center w-full my-[140px]">
+      <div className="flex flex-col justify-center items-center w-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4 flex flex-col justify-end">
             <p className="text-4xl font-bold inline ">
@@ -27,7 +27,7 @@ const Youtube = () => {
               className="border rounded-full border-none max-h-[250px]"
             />
           </div>
-          <div className="flex flex-col justify-start px-5 2xl:text-lg">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
             <div className="py-4">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369] ">
                 <a href="https://www.youtube.com/@RybarenisKubakem">
@@ -35,7 +35,7 @@ const Youtube = () => {
                 </a>
               </p>
             </div>
-            <div>
+            <div className="">
               <p>
                 Jak jsem zmínil výše, už několik let tvořím video-obsah na mém
                 youtube kanále Rybření s Kubákem, kde můžeš narazit na videa z
@@ -50,8 +50,8 @@ const Youtube = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10">
-          <div className="flex flex-col justify-start px-5 2xl:text-lg">
+        <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10 ">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
             <div className="py-4 sm:flex flex-row justify-end">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369]">
                 <a href="https://www.youtube.com/channel/UCZ3J43l2QzHVkKYBfaoPAcQ/join">

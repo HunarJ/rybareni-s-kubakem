@@ -4,10 +4,10 @@ import SecondImg from "../assets/main/image6.jpeg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full 2xl:flex flex-col justify-center bg-[#393E46] text-gray-300 px-10">
-      <div className="2xl:h-screen flex flex-col justify-center items-center w-full my-40 2xl:my-20">
-        <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+    <div className="w-full 2xl:flex flex-col justify-center text-gray-300 p-10 mt-60">
+      <div name="about" className="flex flex-col justify-center items-center w-full">
+        <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8 justify-end items-center">
+          <div className="sm:text-left md:text-right pb-8 pl-4 flex md:justify-end items-center col-span-2 md:col-span-1">
             <p className="text-4xl font-bold inline border-b-4 border-[#FFD369]">
               O mně
             </p>
@@ -15,14 +15,14 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="hidden md:flex px-5 justify-end items-center">
+          <div className="hidden md:flex px-5 justify-center items-center">
             <img
               src={FirstImg}
               alt=""
               className="border rounded-[50px] md:rounded-full border-none max-h-[250px]"
             />
           </div>
-          <div className="flex flex-col justify-center px-5 2xl:text-lg">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
             <p>
               Ahoj! Jmenuji se Jakub Zeman a jsem youtuber Kubák, ale hlavně
               rybář a milovník přírody. Rád točím videa a prostřednictvím mé
@@ -37,7 +37,7 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10">
-          <div className="flex flex-col justify-center px-5 2xl:text-lg">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
             <p>
               Rybařím od šesti let, kdy jsem začínal na malém vesnickém
               rybníčku. Ze začátku jsem se nejvíce věnoval muškaření a plavané.
@@ -51,7 +51,7 @@ const About = () => {
               přál vám všem.
             </p>
           </div>
-          <div className="flex px-5 items-center">
+          <div className="flex px-5 flex-col justify-center items-center">
             <img
               src={SecondImg}
               alt=""

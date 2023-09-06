@@ -21,39 +21,43 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300">
       <div>
-        <p className="font-bold hover:text-[#FFD369]"><a href="index.html">RYBAŘENÍ S KUBÁKEM</a></p>
+        <p className="font-bold hover:text-[#FFD369]">
+          <Link to="home" smooth={true} duration={500}>
+            RYBAŘENÍ S KUBÁKEM
+          </Link>
+        </p>
         {/* <img src={Logo} alt="Logo image" style={{ width: "50px" }} /> */}
       </div>
 
       {/* {menu} */}
 
       <ul className="hidden md:flex">
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
           <Link to="home" smooth={true} duration={500}>
             Domů
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
-          <Link to="about" smooth={true} duration={500}>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+          <Link to="about" smooth={true} duration={500} offset={-125}>
             O mně
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
-          <Link to="work" smooth={true} duration={500}>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+          <Link to="work" smooth={true} duration={500} offset={-125}>
             Nabízím
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
-          <Link to="youtube" smooth={true} duration={500}>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+          <Link to="youtube" smooth={true} duration={500} offset={-125}>
             YouTube
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
-          <Link to="contact" smooth={true} duration={500}>
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+          <Link to="contact" smooth={true} duration={500} offset={-80}>
             Kontakt
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369]">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
           <Link to="catches" smooth={true} duration={500}>
             Úlovky
           </Link>
@@ -74,27 +78,57 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={hadleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={hadleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            offset={-125}
+          >
             Domů
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={hadleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={hadleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            offset={-125}
+          >
             O mně
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={hadleClick} to="work" smooth={true} duration={500}>
+          <Link
+            onClick={hadleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            offset={-125}
+          >
             Nabízím
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={hadleClick} to="youtube" smooth={true} duration={500}>
+          <Link
+            onClick={hadleClick}
+            to="youtube"
+            smooth={true}
+            duration={500}
+            offset={-125}
+          >
             YouTube
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={hadleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={hadleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            offset={-125}
+          >
             Kontakt
           </Link>
         </li>
@@ -132,26 +166,28 @@ const Navbar = () => {
               YouTube <FaYoutube size={30} />
             </a>
           </li>
-          <Link to="contact" smooth={true} duration={500}>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
-              >
-                Email <HiOutlineMail size={30} />
-              </a>
-            </li>
-          </Link>
-          <Link to="about" smooth={true} duration={500}>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
-              >
-                O mně <BsFillPersonLinesFill size={30} />
-              </a>
-            </li>
-          </Link>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-125}
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              Email <HiOutlineMail size={30} />
+            </Link>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              offset={-125}
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              O mně <BsFillPersonLinesFill size={30} />
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

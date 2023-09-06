@@ -13,6 +13,9 @@
         @apply cursor-pointer;
     }
 }
+body{
+    background-color: #393E46;
+}
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
