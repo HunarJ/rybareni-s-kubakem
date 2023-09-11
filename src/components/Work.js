@@ -28,7 +28,7 @@ const Work = () => {
               className="border rounded-full border-none h-60"
             />
           </div>
-          <div className="flex flex-col justify-center px-5 2xl:text-lg text-justify 2xl:border-8 rounded-2xl p-5 text-justify">
+          <div className="flex flex-col justify-center px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
             <p>
               Kromě rybaření online prostřednictvím mé kamery a kanálu Youtube
               Rybaření s Kubákem, nabízím také osobní doprovod po východočeských
@@ -51,7 +51,7 @@ const Work = () => {
                 Služby
               </p>
             </div>
-            <div className="grid md:grid-cols-3 gap-2 2xl:border-8 rounded-2xl p-5 text-justify">
+            <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
               <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                 <h3 className="font-bold text-left">SLUŽBY PRŮVODCE</h3>
                 <p className="text-justify my-5 mr-4">
@@ -67,7 +67,7 @@ const Work = () => {
                 />
               </div>
             </div>
-            <div className="grid md:grid-cols-3 gap-2 2xl:border-8 rounded-2xl p-5 text-justify">
+            <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify my-5">
               <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                 <h3 className="font-bold text-left">PRODUKTOVÉ PORADENSTVÍ</h3>
                 <p className="text-justify my-5 mr-4">
@@ -83,7 +83,7 @@ const Work = () => {
                 />
               </div>
             </div>
-            <div className="grid md:grid-cols-3 gap-2 2xl:border-8 rounded-2xl p-5 text-justify">
+            <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
               <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                 <h3 className="font-bold text-left">WORKSHOP</h3>
                 <p className="text-justify my-5 mr-4">
@@ -102,12 +102,12 @@ const Work = () => {
             </div>
           </div>
           <div className="h-auto px-5">
-            <div className="sm:text-center pb-8 pl-4 md:hidden mt-4">
+            <div className="sm:text-center pb-8 pl-4 md:hidden mt-10">
               <p className="text-2xl font-bold inline border-b-4 border-[#FFD369]">
                 Produkty
               </p>
             </div>
-            <div className="2xl:border-8 rounded-2xl p-5 text-justify">
+            <div className="border-8 rounded-2xl p-5 text-justify">
               <h3 className="font-bold text-2xl hover:text-[#FFD369]">
                 <a href="https://www.tactics.cz/kubakuv-program/">
                   KUBÁKOVY KOULE

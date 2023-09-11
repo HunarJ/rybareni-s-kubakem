@@ -27,7 +27,7 @@ const Youtube = () => {
               className="border rounded-full border-none max-h-[250px]"
             />
           </div>
-          <div className="flex flex-col justify-start px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
             <div className="py-4">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369] ">
                 <a href="https://www.youtube.com/@RybarenisKubakem">
@@ -51,7 +51,7 @@ const Youtube = () => {
           </div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10 ">
-          <div className="flex flex-col justify-start px-5 2xl:text-lg 2xl:border-8 rounded-2xl p-5 text-justify">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
             <div className="py-4 sm:flex flex-row justify-end">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369]">
                 <a href="https://www.youtube.com/channel/UCZ3J43l2QzHVkKYBfaoPAcQ/join">
