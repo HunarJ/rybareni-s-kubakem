@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <form
         method="post"
-        action="https://getform.io/f/aa6170c1-193b-4338-b021-d6c6cffe064f"
+        action="https://formsubmit.co/studiozeman@icloud.com"
         className="flex flex-col justify-center max-w-[600px] w-full 2xl:h-screen"
       >
         <div className="pb-8">
