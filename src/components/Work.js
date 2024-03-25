@@ -530,7 +530,7 @@ const Work = () => {
                       S klukama z{" "}
                       <a
                         href="https://www.tactics.cz/"
-                        className="font-bold hover:text-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369]"
                       >
                         Tactics
                       </a>{" "}
@@ -539,7 +539,7 @@ const Work = () => {
                       jejich produkt z kontroverzním názvem{" "}
                       <a
                         href="https://www.tactics.cz/stitek-produktu/konopny-kvet/"
-                        className="font-bold hover:text-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369]"
                       >
                         „Konopný květ“
                       </a>
@@ -547,7 +547,7 @@ const Work = () => {
                       jejich produktů jako je{" "}
                       <a
                         href="https://www.tactics.cz/stitek-produktu/cervene-ovoce/"
-                        className="font-bold hover:text-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369]"
                       >
                         „Červené ovoce“
                       </a>
@@ -557,7 +557,7 @@ const Work = () => {
                       jejich produkty jako takové. Na{" "}
                       <a
                         href="https://www.tactics.cz/stitek-produktu/cervene-ovoce/"
-                        className="font-bold hover:text-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369]"
                       >
                         Červené ovoce
                       </a>{" "}
@@ -565,7 +565,7 @@ const Work = () => {
                       videích na mém{" "}
                       <a
                         href="https://www.youtube.com/@RybarenisKubakem"
-                        className="font-bold hover:text-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369]"
                       >
                         Youtube kanálu
                       </a>
@@ -579,7 +579,7 @@ const Work = () => {
                       nemění. Proto moje další verze V3. - mých{" "}
                       <a
                         href="https://www.tactics.cz/kubakuv-program/"
-                        className="font-bold hover:text-[#FFD369] border-b-2 border-[#FFD369] link--resized"
+                        className="font-bold hover:text-[#FFD369] border-b-2 border-[#FFD369]"
                       >
                         {" "}
                         KUBÁKOVÝCH KOULÍ
@@ -612,7 +612,7 @@ const Work = () => {
                       <h2 className="text-2xl font-bold">
                         <a
                           href="https://www.tactics.cz/kubakuv-program/"
-                          className="font-bold hover:text-[#FFD369] border-b-2 border-[#FFD369] link--resized"
+                          className="font-bold hover:text-[#FFD369] border-b-2 border-[#FFD369]"
                         >
                           NAKUPUJ ZDE!
                         </a>

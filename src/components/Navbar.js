@@ -19,9 +19,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300 z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-10 bg-[#222831] text-gray-300 z-50">
       <div>
-        <p className="font-bold hover:text-[#FFD369]">
+        <p className="font-bold hover:text-[#FFD369] hover:border-b-4 hover:border-[#FFD369] cursor-pointer link--resized">
           <Link to="home" smooth={true} duration={500}>
             RYBAŘENÍ S KUBÁKEM
           </Link>
@@ -32,32 +32,32 @@ const Navbar = () => {
       {/* {menu} */}
 
       <ul className="hidden md:flex">
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="home" smooth={true} duration={500}>
             Domů
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="about" smooth={true} duration={500} offset={-125}>
             O mně
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="work" smooth={true} duration={500} offset={-125}>
             Nabízím
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="youtube" smooth={true} duration={500} offset={-125}>
             YouTube
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="contact" smooth={true} duration={500} offset={-80}>
             Kontakt
           </Link>
         </li>
-        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold">
+        <li className="border-b-4 border-[#222831] hover:border-b-4 hover:border-[#FFD369] font-bold link--resized">
           <Link to="catches" smooth={true} duration={500}>
             Úlovky
           </Link>

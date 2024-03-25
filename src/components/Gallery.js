@@ -21,10 +21,11 @@ import Catches17 from "../assets/gallery/img-17.jpeg";
 import Catches18 from "../assets/gallery/img-18.jpeg";
 import Catches19 from "../assets/gallery/img-19.jpeg";
 import Catches20 from "../assets/gallery/img-20.jpeg";
-import Catches21 from "../assets/gallery/image1.jpeg";
-import Catches22 from "../assets/gallery/image2.jpeg";
-import Catches23 from "../assets/gallery/image3.jpeg";
-import Catches24 from "../assets/gallery/image4.jpeg";
+import Catches21 from "../assets/gallery/image0.jpeg";
+import Catches22 from "../assets/gallery/image1.jpeg";
+import Catches23 from "../assets/gallery/image2.jpeg";
+import Catches24 from "../assets/gallery/image3.jpeg";
+import Catches25 from "../assets/gallery/image4.jpeg";
 
 const Gallery = () => {
   const [lightboxController, setLightboxController] = useState({
@@ -53,30 +54,36 @@ const Gallery = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
-            onClick={() => openLightboxOnSource(0)}
+            onClick={() => openLightboxOnSource(20)}
           >
             <img className="h-full mx-auto" src={Catches21} />
           </div>
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
-            onClick={() => openLightboxOnSource(1)}
+            onClick={() => openLightboxOnSource(21)}
           >
             <img className="h-full mx-auto" src={Catches22} />
           </div>
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
-            onClick={() => openLightboxOnSource(2)}
+            onClick={() => openLightboxOnSource(22)}
           >
             <img className="h-full mx-auto" src={Catches23} />
           </div>
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
-            onClick={() => openLightboxOnSource(3)}
+            onClick={() => openLightboxOnSource(23)}
           >
             <img className="h-full mx-auto" src={Catches24} />
           </div>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <div
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            onClick={() => openLightboxOnSource(24)}
+          >
+            <img className="h-full mx-auto" src={Catches25} />
+          </div>
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(0)}
@@ -95,14 +102,14 @@ const Gallery = () => {
           >
             <img className="h-full mx-auto" src={Catches3} />
           </div>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(3)}
           >
             <img className="h-full mx-auto" src={Catches4} />
           </div>
-        </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(4)}
@@ -121,14 +128,14 @@ const Gallery = () => {
           >
             <img className="h-full mx-auto" src={Catches7} />
           </div>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(7)}
           >
             <img className="h-full mx-auto" src={Catches8} />
           </div>
-        </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(8)}
@@ -147,14 +154,14 @@ const Gallery = () => {
           >
             <img className="h-full mx-auto" src={Catches11} />
           </div>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(11)}
           >
             <img className="h-full mx-auto" src={Catches12} />
           </div>
-        </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(12)}
@@ -173,14 +180,14 @@ const Gallery = () => {
           >
             <img className="h-full mx-auto" src={Catches15} />
           </div>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(15)}
           >
             <img className="h-full mx-auto" src={Catches16} />
           </div>
-        </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(16)}
@@ -199,6 +206,8 @@ const Gallery = () => {
           >
             <img className="h-full mx-auto" src={Catches19} />
           </div>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
             onClick={() => openLightboxOnSource(19)}
@@ -212,10 +221,6 @@ const Gallery = () => {
         sourceIndex={lightboxController.sourceIndex}
         thumbs={[
           null,
-          Catches21,
-          Catches22,
-          Catches23,
-          Catches24,
           Catches1,
           Catches2,
           Catches3,
@@ -236,12 +241,12 @@ const Gallery = () => {
           Catches18,
           Catches19,
           Catches20,
+          Catches21,
+          Catches22,
+          Catches23,
+          Catches24,
         ]}
         sources={[
-          Catches21,
-          Catches22,
-          Catches23,
-          Catches24,
           Catches1,
           Catches2,
           Catches3,
@@ -262,6 +267,10 @@ const Gallery = () => {
           Catches18,
           Catches19,
           Catches20,
+          Catches21,
+          Catches22,
+          Catches23,
+          Catches24,
         ]}
       />
     </div>
