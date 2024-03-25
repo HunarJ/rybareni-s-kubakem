@@ -21,6 +21,10 @@ import Catches17 from "../assets/gallery/img-17.jpeg";
 import Catches18 from "../assets/gallery/img-18.jpeg";
 import Catches19 from "../assets/gallery/img-19.jpeg";
 import Catches20 from "../assets/gallery/img-20.jpeg";
+import Catches21 from "../assets/gallery/image1.jpeg";
+import Catches22 from "../assets/gallery/image2.jpeg";
+import Catches23 from "../assets/gallery/image3.jpeg";
+import Catches24 from "../assets/gallery/image4.jpeg";
 
 const Gallery = () => {
   const [lightboxController, setLightboxController] = useState({
@@ -45,6 +49,32 @@ const Gallery = () => {
           <p className="py-4">
             // Toto jsou moje kapitální úlovky, na které rád vzpomínám
           </p>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <div
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            onClick={() => openLightboxOnSource(0)}
+          >
+            <img className="h-full mx-auto" src={Catches21} />
+          </div>
+          <div
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            onClick={() => openLightboxOnSource(1)}
+          >
+            <img className="h-full mx-auto" src={Catches22} />
+          </div>
+          <div
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            onClick={() => openLightboxOnSource(2)}
+          >
+            <img className="h-full mx-auto" src={Catches23} />
+          </div>
+          <div
+            className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+            onClick={() => openLightboxOnSource(3)}
+          >
+            <img className="h-full mx-auto" src={Catches24} />
+          </div>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
@@ -182,6 +212,10 @@ const Gallery = () => {
         sourceIndex={lightboxController.sourceIndex}
         thumbs={[
           null,
+          Catches21,
+          Catches22,
+          Catches23,
+          Catches24,
           Catches1,
           Catches2,
           Catches3,
@@ -204,6 +238,10 @@ const Gallery = () => {
           Catches20,
         ]}
         sources={[
+          Catches21,
+          Catches22,
+          Catches23,
+          Catches24,
           Catches1,
           Catches2,
           Catches3,
