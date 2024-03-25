@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#222831] text-gray-300 z-50">
       <div>
         <p className="font-bold hover:text-[#FFD369]">
           <Link to="home" smooth={true} duration={500}>

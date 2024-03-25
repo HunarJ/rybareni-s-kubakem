@@ -30,3 +30,11 @@ body{
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+.link--resized {
+    transition: ease 0.3s;
+}
+
+.link--resized:hover {
+    scale: 125%;
+}
