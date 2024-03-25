@@ -1,6 +1,7 @@
 import React from "react";
 import FirstImg from "../assets/main/image14.jpg";
 import SecondImg from "../assets/main/image15.jpg";
+import { Fade } from "react-reveal";
 
 const Youtube = () => {
   return (
@@ -8,6 +9,7 @@ const Youtube = () => {
       name="youtube"
       className="w-full flex flex-col justify-center bg-[#393E46] text-gray-300 px-10 mt-60"
     >
+      <Fade bottom>
       <div className="flex flex-col justify-center items-center w-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4 flex flex-col justify-end">
@@ -80,6 +82,7 @@ const Youtube = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
   );
 };
