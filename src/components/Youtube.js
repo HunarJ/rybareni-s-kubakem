@@ -21,15 +21,15 @@ const Youtube = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-          <div className="hidden md:flex flex-col px-5 justify-center items-end">
+        <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4">
+          <div className="hidden md:flex flex-col justify-center items-end ">
             <img
               src={FirstImg}
               alt=""
-              className="border rounded-full border-none max-h-[250px]"
+              className="border rounded-2xl border-4 h-full"
             />
           </div>
-          <div className="flex flex-col justify-start px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
             <div className="py-4">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369] ">
                 <a href="https://www.youtube.com/@RybarenisKubakem">
@@ -53,7 +53,7 @@ const Youtube = () => {
           </div>
         </div>
         <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10 ">
-          <div className="flex flex-col justify-start px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+          <div className="flex flex-col justify-start px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
             <div className="py-4 sm:flex flex-row justify-end">
               <p className="text-xl font-bold inline border-b-4 border-[#FFD369]">
                 <a href="https://www.youtube.com/channel/UCZ3J43l2QzHVkKYBfaoPAcQ/join">
@@ -73,11 +73,11 @@ const Youtube = () => {
               </p>
             </div>
           </div>
-          <div className="flex px-5">
+          <div className="flex">
             <img
               src={SecondImg}
               alt=""
-              className="border rounded-full border-none max-h-[250px]"
+              className="border rounded-2xl border-4"
             />
           </div>
         </div>

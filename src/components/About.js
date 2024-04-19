@@ -20,14 +20,16 @@ const About = () => {
             <div></div>
           </div>
           <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-            <div className="hidden md:flex px-5 justify-center items-center">
-              <img
-                src={FirstImg}
-                alt=""
-                className="border rounded-[50px] md:rounded-full border-none max-h-[250px]"
-              />
+            <div className="hidden md:flex justify-center items-center">
+              <Fade left>
+                <img
+                  src={FirstImg}
+                  alt=""
+                  className="border rounded-2xl border-4"
+                />
+              </Fade>
             </div>
-            <div className="flex flex-col justify-center px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+            <div className="flex flex-col justify-center px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
               <p>
                 Ahoj! Jmenuji se Jakub Zeman a jsem youtuber Kubák, ale hlavně
                 rybář a milovník přírody. Rád točím videa a prostřednictvím mé
@@ -42,7 +44,7 @@ const About = () => {
             </div>
           </div>
           <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-10">
-            <div className="flex flex-col justify-center px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+            <div className="flex flex-col justify-center px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
               <p>
                 Rybařím od šesti let, kdy jsem začínal na malém vesnickém
                 rybníčku. Ze začátku jsem se nejvíce věnoval muškaření a
@@ -56,12 +58,14 @@ const About = () => {
                 krásné zážitky u vody, které bych přál vám všem.
               </p>
             </div>
-            <div className="flex px-5 flex-col justify-center items-center">
-              <img
-                src={SecondImg}
-                alt=""
-                className="border rounded-full border-none max-h-[250px]"
-              />
+            <div className="flex flex-col justify-center items-center">
+              <Fade right>
+                <img
+                  src={SecondImg}
+                  alt=""
+                  className="border rounded-2xl border-4"
+                />
+              </Fade>
             </div>
           </div>
         </Fade>

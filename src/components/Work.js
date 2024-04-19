@@ -41,11 +41,11 @@ const Work = () => {
               <div className="hidden md:flex justify-end items-center px-5">
                 <img
                   src={OfferImg}
-                  alt=""
-                  className="border rounded-full border-none h-60"
+                  alt="angler"
+                  className="border rounded-2xl border-4"
                 />
               </div>
-              <div className="flex flex-col justify-center px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+              <div className="flex flex-col justify-center px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
                 <p>
                   Kromě rybaření online prostřednictvím mé kamery a kanálu
                   Youtube Rybaření s Kubákem, nabízím také osobní doprovod po
@@ -54,11 +54,11 @@ const Work = () => {
                   Orlických Horách.
                 </p>
               </div>
-              <div className="flex justify-end md:hidden px-5 my-5">
+              <div className="flex justify-end md:hidden my-5">
                 <img
                   src={OfferImg}
                   alt=""
-                  className="border rounded-full border-none h-56"
+                  className="border rounded-2xl border-4"
                 />
               </div>
             </div>
@@ -69,7 +69,7 @@ const Work = () => {
                     Služby
                   </p>
                 </div>
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">SLUŽBY PRŮVODCE</h3>
                       <p className="text-justify my-5 mr-4">
@@ -80,12 +80,12 @@ const Work = () => {
                     <div className=" flex justify-center items-center">
                       <img
                         src={CardImg1}
-                        alt=""
+                        alt="angler"
                         className="border rounded-full border-none h-30"
                       />
                     </div>
                   </div>
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify my-5">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify my-5">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">
                         PRODUKTOVÉ PORADENSTVÍ
@@ -103,7 +103,7 @@ const Work = () => {
                       />
                     </div>
                   </div>
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">WORKSHOP</h3>
                       <p className="text-justify my-5 mr-4">
@@ -128,7 +128,7 @@ const Work = () => {
                       Produkty
                     </p>
                   </div>
-                  <div className="border-8 rounded-2xl p-5 text-justify">
+                  <div className="border-4 rounded-2xl p-5 text-justify">
                     <h3 className="font-bold text-2xl hover:text-[#FFD369]">
                       <a href="https://www.tactics.cz/kubakuv-program/">
                         KUBÁKOVY KOULE
@@ -241,7 +241,7 @@ const Work = () => {
                         Produkty
                       </p>
                     </div>
-                    <div className="border-8 rounded-2xl p-5 text-justify">
+                    <div className="border-4 rounded-2xl p-5 text-justify">
                       <h3 className="font-bold text-2xl hover:text-[#FFD369]">
                         <a href="https://www.tactics.cz/kubakuv-program/">
                           KUBÁKOVY KOULE
@@ -361,15 +361,15 @@ const Work = () => {
               </div>
               <div></div>
             </div>
-            <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3">
-              <div className="hidden md:flex justify-end items-center px-5">
+            <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4 my-3 ">
+              <div className="hidden md:flex justify-end items-center max-h-[250px] w-full relative overflow-hidden border rounded-2xl border-4 ">
                 <img
                   src={OfferImg}
                   alt=""
-                  className="border rounded-full border-none h-60"
+                  className=""
                 />
               </div>
-              <div className="flex flex-col justify-center px-5 2xl:text-lg border-8 rounded-2xl p-5 text-justify">
+              <div className="flex flex-col justify-center px-5 2xl:text-lg border-4 rounded-2xl p-5 text-justify">
                 <p>
                   Kromě rybaření online prostřednictvím mé kamery a kanálu
                   Youtube Rybaření s Kubákem, nabízím také osobní doprovod po
@@ -378,11 +378,11 @@ const Work = () => {
                   Orlických Horách.
                 </p>
               </div>
-              <div className="flex justify-end md:hidden px-5 my-5">
+              <div className="flex justify-end md:hidden my-5">
                 <img
                   src={OfferImg}
                   alt=""
-                  className="border rounded-full border-none h-56"
+                  className="border rounded-2xl border-4"
                 />
               </div>
             </div>
@@ -394,7 +394,7 @@ const Work = () => {
                   </p>
                 </div>
                 {isMobile ? (
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">SLUŽBY PRŮVODCE</h3>
                       <p className="text-justify my-5 mr-4">
@@ -412,7 +412,7 @@ const Work = () => {
                   </div>
                 ) : (
                   <Fade left>
-                    <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                    <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                       <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                         <h3 className="font-bold text-left">SLUŽBY PRŮVODCE</h3>
                         <p className="text-justify my-5 mr-4">
@@ -432,7 +432,7 @@ const Work = () => {
                 )}
 
                 {isMobile ? (
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify my-5">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify my-5">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">
                         PRODUKTOVÉ PORADENSTVÍ
@@ -452,7 +452,7 @@ const Work = () => {
                   </div>
                 ) : (
                   <Fade left>
-                    <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify my-5">
+                    <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify my-5">
                       <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                         <h3 className="font-bold text-left">
                           PRODUKTOVÉ PORADENSTVÍ
@@ -474,7 +474,7 @@ const Work = () => {
                 )}
 
                 {isMobile ? (
-                  <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                  <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                     <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                       <h3 className="font-bold text-left">WORKSHOP</h3>
                       <p className="text-justify my-5 mr-4">
@@ -493,7 +493,7 @@ const Work = () => {
                   </div>
                 ) : (
                   <Fade left>
-                    <div className="grid md:grid-cols-3 gap-2 border-8 rounded-2xl p-5 text-justify">
+                    <div className="grid md:grid-cols-3 gap-2 border-4 rounded-2xl p-5 text-justify">
                       <div className="col-span-2 flex flex-col justify-center md:text-right 2xl:text-lg">
                         <h3 className="font-bold text-left">WORKSHOP</h3>
                         <p className="text-justify my-5 mr-4">
@@ -520,7 +520,7 @@ const Work = () => {
                       Produkty
                     </p>
                   </div>
-                  <div className="border-8 rounded-2xl p-5 text-justify">
+                  <div className="border-4 rounded-2xl p-5 text-justify">
                     <h3 className="font-bold text-2xl hover:text-[#FFD369]">
                       <a href="https://www.tactics.cz/kubakuv-program/">
                         KUBÁKOVY KOULE
@@ -634,7 +634,7 @@ const Work = () => {
                         Produkty
                       </p>
                     </div>
-                    <div className="border-8 rounded-2xl p-5 text-justify">
+                    <div className="border-4 rounded-2xl p-5 text-justify">
                       <h3 className="font-bold text-2xl hover:text-[#FFD369]">
                         <a href="https://www.tactics.cz/kubakuv-program/">
                           KUBÁKOVY KOULE
