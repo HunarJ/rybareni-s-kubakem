@@ -1,34 +1,41 @@
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
+import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
 
-import Catches1 from "../assets/gallery/img-1.jpeg";
-import Catches2 from "../assets/gallery/img-2.jpeg";
-import Catches3 from "../assets/gallery/img-3.jpeg";
-import Catches4 from "../assets/gallery/img-4.jpeg";
-import Catches5 from "../assets/gallery/img-5.jpeg";
-import Catches6 from "../assets/gallery/img-6.jpeg";
-import Catches7 from "../assets/gallery/img-7.jpeg";
-import Catches8 from "../assets/gallery/img-8.jpeg";
-import Catches9 from "../assets/gallery/img-9.jpeg";
-import Catches10 from "../assets/gallery/img-10.jpeg";
-import Catches11 from "../assets/gallery/img-11.jpeg";
-import Catches12 from "../assets/gallery/img-12.jpeg";
-import Catches13 from "../assets/gallery/img-13.jpeg";
-import Catches14 from "../assets/gallery/img-14.jpeg";
-import Catches15 from "../assets/gallery/img-15.jpeg";
-import Catches16 from "../assets/gallery/img-16.jpeg";
-import Catches17 from "../assets/gallery/img-17.jpeg";
-import Catches18 from "../assets/gallery/img-18.jpeg";
-import Catches19 from "../assets/gallery/img-19.jpeg";
-import Catches20 from "../assets/gallery/img-20.jpeg";
-import Catches21 from "../assets/gallery/img-21.jpeg";
-import Catches22 from "../assets/gallery/img-22.jpeg";
-import Catches23 from "../assets/gallery/img-23.jpeg";
-import Catches24 from "../assets/gallery/img-24.jpeg";
-import Catches25 from "../assets/gallery/img-25.jpeg";
-import Catches26 from "../assets/gallery/img-26.jpeg";
-import Catches27 from "../assets/gallery/img-27.jpeg";
-import Catches28 from "../assets/gallery/img-28.jpeg";
+import Catches1 from '../assets/gallery/img-1.jpeg';
+import Catches2 from '../assets/gallery/img-2.jpeg';
+import Catches3 from '../assets/gallery/img-3.jpeg';
+import Catches4 from '../assets/gallery/img-4.jpeg';
+import Catches5 from '../assets/gallery/img-5.jpeg';
+import Catches6 from '../assets/gallery/img-6.jpeg';
+import Catches7 from '../assets/gallery/img-7.jpeg';
+import Catches8 from '../assets/gallery/img-8.jpeg';
+import Catches9 from '../assets/gallery/img-9.jpeg';
+import Catches10 from '../assets/gallery/img-10.jpeg';
+import Catches11 from '../assets/gallery/img-11.jpeg';
+import Catches12 from '../assets/gallery/img-12.jpeg';
+import Catches13 from '../assets/gallery/img-13.jpeg';
+import Catches14 from '../assets/gallery/img-14.jpeg';
+import Catches15 from '../assets/gallery/img-15.jpeg';
+import Catches16 from '../assets/gallery/img-16.jpeg';
+import Catches17 from '../assets/gallery/img-17.jpeg';
+import Catches18 from '../assets/gallery/img-18.jpeg';
+import Catches19 from '../assets/gallery/img-19.jpeg';
+import Catches20 from '../assets/gallery/img-20.jpeg';
+import Catches21 from '../assets/gallery/img-21.jpeg';
+import Catches22 from '../assets/gallery/img-22.jpeg';
+import Catches23 from '../assets/gallery/img-23.jpeg';
+import Catches24 from '../assets/gallery/img-24.jpeg';
+import Catches25 from '../assets/gallery/img-25.jpeg';
+import Catches26 from '../assets/gallery/img-26.jpeg';
+import Catches27 from '../assets/gallery/img-27.jpeg';
+import Catches28 from '../assets/gallery/img-28.jpeg';
+import Catches29 from '../assets/gallery/img-29.jpeg';
+import Catches30 from '../assets/gallery/img-30.jpeg';
+import Catches31 from '../assets/gallery/img-31.jpeg';
+import Catches32 from '../assets/gallery/img-32.jpeg';
+import Catches34 from '../assets/gallery/img-34.jpeg';
+import Catches35 from '../assets/gallery/img-35.jpeg';
+import Catches36 from '../assets/gallery/img-36.jpeg';
 
 const Gallery = () => {
   const [lightboxController, setLightboxController] = useState({
@@ -72,30 +79,40 @@ const Gallery = () => {
     Catches26,
     Catches27,
     Catches28,
-  ]
+    Catches29,
+    Catches30,
+    Catches31,
+    Catches32,
+    Catches34,
+    Catches35,
+    Catches36,
+  ];
 
   images.reverse();
 
   return (
-    <div name="catches" className="w-full bg-[#393E46] text-gray-300 py-[120px]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
+    <div
+      name='catches'
+      className='w-full bg-[#393E46] text-gray-300 py-[120px]'
+    >
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full'>
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#FFD369] ">
+          <p className='text-4xl font-bold inline border-b-4 border-[#FFD369] '>
             Galerie úlovků
           </p>
-          <p className="py-4">
+          <p className='py-4'>
             // Toto jsou moje kapitální úlovky, na které rád vzpomínám
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center py-8">
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-center py-8'>
           {images.map((imgSrc, index) => (
             <div
               key={index}
-              className="max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+              className='max-h-[150px] lg:max-h-[250px] shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer'
               onClick={() => openLightboxOnSource(index)}
             >
               <img
-                className="h-full mx-auto"
+                className='h-full mx-auto'
                 src={imgSrc}
                 alt={`Catch ${index + 1}`}
               />
@@ -106,10 +123,7 @@ const Gallery = () => {
       <FsLightbox
         toggler={lightboxController.toggler}
         sourceIndex={lightboxController.sourceIndex}
-        thumbs={[
-          null,
-          ...images
-        ]}
+        thumbs={[null, ...images]}
         sources={images}
       />
     </div>
