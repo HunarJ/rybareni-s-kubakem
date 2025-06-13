@@ -13,10 +13,10 @@ const Contact = () => {
       >
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#FFD369]'>
-            Kontaktuj mně
+            Kontaktuj mě
           </p>
           <p className='py-4'>
-            Kontaktuj mne pomocí formuláře níže, nebo na email{' '}
+            Kontaktuj mě pomocí formuláře níže, nebo na email{' '}
             <span className='font-bold border-b-2 border-[#FFD369]'>
               studiozeman@icloud.com
             </span>
